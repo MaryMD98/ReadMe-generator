@@ -11,15 +11,22 @@ Message will go here
 
 * [Description](#description)
 * [Installation](#installation)
+* [Test](#test)
 * [Usage](#usage)
 * [License](#license)
 * [Contributing](#contributing)
-* [Test](#test)
 * [Questions](#questions)
 
 
-## Installation
+## [Installation](#installation)
 To run tests, run the following command.
+
+```shell
+ npm i
+``` 
+
+## [Test](#test)
+information on how to test 
 
 ```shell
  npm i
@@ -36,10 +43,6 @@ here will go information anout the licenses used
 ## [Contributing](#contributing)
 
 here will go information about contributung
-
-## [Test](#test)
-
-information on how to test 
 
 ## [Questions](#questions)
 
