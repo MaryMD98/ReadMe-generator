@@ -84,16 +84,19 @@ init();
 // function to write the readme
 // 'gitHUBuser', 'email', 'projectNAME', 'projectDES', 'projectLIC',
 // 'dependencies', 'test', 'repoMSG', 'contributing', 
+//generateMarkdown(data)
 var generateREADme = (data) =>{
-    return ` # heading
-    hello i am working gitHUBuser?  ${data.gitHUBuser}
-    hello i am working email?  ${data.email}
-    hello i am working projectNAME?  ${data.projectNAME}
-    hello i am working projectDES?  ${data.projectDES}
-    hello i am working projectLIC?  ${data.projectLIC}
-    hello i am working dependencies?  ${data.dependencies}
-    hello i am working test?  ${data.test}
-    hello i am working repoMSG?  ${data.repoMSG}
-    hello i am working contributing?  ${data.contributing}`
+    return ` 
+# heading
+    
+hello i am working gitHUBuser?  ${data.gitHUBuser}
+hello i am working email?  ${data.email}
+hello i am working projectNAME?  ${data.projectNAME}
+hello i am working projectDES?  ${data.projectDES}
+hello i am working projectLIC?  ${data.projectLIC}
+hello i am working dependencies?  ${data.dependencies}
+hello i am working test?  ${data.test}
+hello i am working repoMSG?  ${data.repoMSG}
+hello i am working contributing?  ${data.contributing}`
 }
 
