@@ -1,11 +1,11 @@
 
-<img align="right" width="80" alt="MIT Logo" src="../Assets/pictures/GPLv3-Logo.png" >
+[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
-# my
+# gr
 
 ## [Description](#description)
 
-my
+gr
 
 ## Table of Content
 
@@ -20,26 +20,26 @@ my
 ## [Installation](#installation)
 To initialie, run the following command.
 
-    my
+    gr
 
 ## [Test](#test)
 To run tests, run the following command
 
-    my
+    gr
 
 ## [Usage](#usage)
 
-my
+gr
 
 ## [License](#license)
 
-      [GNU GPL 3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) License.
+[BSD](https://opensource.org/licenses/BSD-3-Clause) License.
 
 ## [Contributing](#contributing)
 
-my
+rg
 
 ## [Questions](#questions)
 
-If you have any questions about the repo, open an issue or would like to contact me directly at my. You cn find more of my work at [Maribel Montes](https://github.com/my).
+If you have any questions about the repo, or would like to contact me directly, here is my email: gr. You can find more of my work at [Maribel Montes](https://github.com/gr).
 

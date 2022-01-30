@@ -2,15 +2,15 @@
 // If there is no license, return an empty string
 //"MIT","Apache 2.0","GNU GPL 3.0", "OpenBSD","None"
 function renderLicenseBadge(license) {
-//<img align="right" width="60" alt="MIT Logo" src="../Assets/pictures/MIT-logo.png" >
+//<img align="right" width="100" alt="MIT Logo" src="../Assets/pictures/apache-logo.png" >
   if(license === "MIT"){
-    return `<img align="right" width="60" alt="MIT Logo" src="../Assets/pictures/MIT-logo.png" >`;
+    return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
   } else if(license === "Apache 2.0"){
-    return `<img align="right" width="100" alt="MIT Logo" src="../Assets/pictures/apache-logo.png" >`;
+    return `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
   } else if(license === "GNU GPL 3.0"){
-    return `<img align="right" width="80" alt="MIT Logo" src="../Assets/pictures/GPLv3-Logo.png" >`;
+    return `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`;
   } else if(license === "OpenBSD"){
-    return `<img align="right" width="60" alt="MIT Logo" src="../Assets/pictures/bsd-logo.png" >`;
+    return `[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)`;
   } else {// None
     return " ";
   }
@@ -42,35 +42,30 @@ function renderLicenseSection(license) {
     case "MIT":
       return `## [License](#license)
 
-      [MIT](${renderLicenseLink(license)}) License.`;
+[MIT](${renderLicenseLink(license)}) License.`;
 
     case "Apache 2.0":
       return `## [License](#license)
 
-      [Apache 2.0](${renderLicenseLink(license)}) License.`;
+[Apache 2.0](${renderLicenseLink(license)}) License.`;
 
     case "GNU GPL 3.0":
       return `## [License](#license)
 
-      [GNU GPL 3.0](${renderLicenseLink(license)}) License.`;
+[GNU GPL 3.0](${renderLicenseLink(license)}) License.`;
 
     case "OpenBSD":
       return `## [License](#license)
 
-      [BSD](${renderLicenseLink(license)}) License.`;
-      
+[BSD](${renderLicenseLink(license)}) License.`;
+
     default:
       return `## [License](#license)`;
   }
-
 }
 // TODO: Create a function to generate markdown for README
 // 'gitHUBuser', 'email', 'projectNAME', 'projectDES', 'projectLIC',
 // 'dependencies', 'test', 'repoMSG', 'contributing',
-//## [License](#license)
-//
-//${data.projectLIC}
-//
 function generateMarkdown(data) {
   return `
 ${renderLicenseBadge(data.projectLIC)}
@@ -113,7 +108,7 @@ ${data.contributing}
 
 ## [Questions](#questions)
 
-If you have any questions about the repo, open an issue or would like to contact me directly at ${data.email}. You cn find more of my work at [Maribel Montes](https://github.com/${data.gitHUBuser}).
+If you have any questions about the repo, or would like to contact me directly, here is my email: ${data.email}. You can find more of my work at [Maribel Montes](https://github.com/${data.gitHUBuser}).
 
 `;
 }
