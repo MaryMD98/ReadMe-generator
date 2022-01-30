@@ -1,5 +1,5 @@
 
-<img align="right" width="60" alt="MIT Logo" src="../Assets/pictures/MIT-logo.png" >
+<img align="right" width="60" alt="MIT Logo" src="../Assets/pictures/bsd-logo.png" >
 
 # Title
 

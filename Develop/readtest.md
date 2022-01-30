@@ -1,11 +1,11 @@
 
-<img align="right" width="60" alt="MIT Logo" src="../Assets/pictures/MIT-logo.png" >
+<img align="right" width="80" alt="MIT Logo" src="../Assets/pictures/GPLv3-Logo.png" >
 
-# mi
+# my
 
 ## [Description](#description)
 
-mi
+my
 
 ## Table of Content
 
@@ -20,26 +20,26 @@ mi
 ## [Installation](#installation)
 To initialie, run the following command.
 
-    mi
+    my
 
 ## [Test](#test)
 To run tests, run the following command
 
-    mi
+    my
 
 ## [Usage](#usage)
 
-mi
+my
 
 ## [License](#license)
 
-MIT
+      [GNU GPL 3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) License.
 
 ## [Contributing](#contributing)
 
-mi
+my
 
 ## [Questions](#questions)
 
-If you have any questions about the repo, open an issue or would like to contact me directly at mi. You cn find more of my work at [Maribel Montes](https://github.com/m).
+If you have any questions about the repo, open an issue or would like to contact me directly at my. You cn find more of my work at [Maribel Montes](https://github.com/my).
 
