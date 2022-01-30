@@ -12,17 +12,23 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.projectNAME}
+  console.log("made it to generatemarkdown function");
+  console.log("this is on data ");
+  console.log(data);
+  console.log("this is on title ");
+  console.log(data.projectNAME);
+  return ` # hello i am working ${data.projectNAME}`;
+//   return `# ${data.projectNAME}
    
-hello i am working gitHUBuser?  ${data.gitHUBuser}
-hello i am working email?  ${data.email}
-hello i am working projectDES?  ${data.projectDES}
-hello i am working projectLIC?  ${data.projectLIC}
-hello i am working dependencies?  ${data.dependencies}
-hello i am working test?  ${data.test}
-hello i am working repoMSG?  ${data.repoMSG}
-hello i am working contributing?  ${data.contributing}
-`;
+// hello i am working gitHUBuser?  ${data.gitHUBuser}
+// hello i am working email?  ${data.email}
+// hello i am working projectDES?  ${data.projectDES}
+// hello i am working projectLIC?  ${data.projectLIC}
+// hello i am working dependencies?  ${data.dependencies}
+// hello i am working test?  ${data.test}
+// hello i am working repoMSG?  ${data.repoMSG}
+// hello i am working contributing?  ${data.contributing}
+// `;
 }
 
 module.exports = generateMarkdown;
