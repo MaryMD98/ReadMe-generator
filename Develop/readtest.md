@@ -5,7 +5,7 @@
 
 ## [Description](#description)
 
-This is a test readme.
+This is a Test
 
 ## Table of Content
 
@@ -41,5 +41,6 @@ none
 
 ## [Questions](#questions)
 
-If you have any questions about the repo, or would like to contact me directly, here is my email: mary@me.com. You can find more of my work at [Maribel Montes](https://github.com/MaryMD98).
+If you have any questions about the repo, or would like to contact me directly, 
+here is my email: mary@me.com. You can find more of my work at [Maribel Montes](https://github.com/MaryMD98).
 

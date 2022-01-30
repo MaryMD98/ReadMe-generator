@@ -9,7 +9,8 @@ The page displays my portafolio. It has a navBar that jumps to the different sec
 In this homework, I used, jQuery, bootstrap, googlefonts and javascript to create my Portafolio. 
 
 # Link to application:
-Link to the application [HERE](https://marymd98.github.io/Resume/)
+Link to the video capture of application [HERE](https://watch.screencastify.com/v/EwMaCsGJX6D2LahB6aA6)
+https://watch.screencastify.com/v/EwMaCsGJX6D2LahB6aA6
 
 # Screenshot  of Portafolio:
 Below are screenshots of my Portafolio. 
