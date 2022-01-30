@@ -29,9 +29,49 @@ function init() {
         .prompt([
             {
                 type:'input',
-                name: 'hello',
+                name: 'gitHUBuser',
                 message: questions[0]
-            }
+            },
+            {
+                type:'input',
+                name: 'email',
+                message: questions[1]
+            },
+            {
+                type:'input',
+                name: 'projectNAME',
+                message: questions[2]
+            },
+            {
+                type:'input',
+                name: 'projectDES',
+                message: questions[3]
+            },
+            {
+                type:'input',
+                name: 'projectLIC',
+                message: questions[4]
+            },
+            {
+                type:'input',
+                name: 'dependencies',
+                message: questions[5]
+            },
+            {
+                type:'input',
+                name: 'test',
+                message: questions[6]
+            },
+            {
+                type:'input',
+                name: 'repoMSG',
+                message: questions[7]
+            },
+            {
+                type:'input',
+                name: 'contributing',
+                message: questions[8]
+            },
         ])
         .then((response) =>{
             writeToFile('readtest.md',response);
@@ -42,7 +82,18 @@ function init() {
 init();
 
 // function to write the readme
+// 'gitHUBuser', 'email', 'projectNAME', 'projectDES', 'projectLIC',
+// 'dependencies', 'test', 'repoMSG', 'contributing', 
 var generateREADme = (data) =>{
     return ` # heading
-     hello i am working?  ${data.hello}`
+    hello i am working gitHUBuser?  ${data.gitHUBuser}
+    hello i am working email?  ${data.email}
+    hello i am working projectNAME?  ${data.projectNAME}
+    hello i am working projectDES?  ${data.projectDES}
+    hello i am working projectLIC?  ${data.projectLIC}
+    hello i am working dependencies?  ${data.dependencies}
+    hello i am working test?  ${data.test}
+    hello i am working repoMSG?  ${data.repoMSG}
+    hello i am working contributing?  ${data.contributing}`
 }
+
