@@ -24,12 +24,25 @@ function writeToFile(fileName, data) {
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer
+        .prompt([
+            {
+                type:'input',
+                name: 'hello',
+                message: questions[0]
+            }
+        ])
+        .then((response) =>{
+            writeToFile('readtest.md',response);
+        })
+}
 
 // Function call to initialize app
 init();
 
 // function to write the readme
 var generateREADme = (data) =>{
-    return ` hello i am working ${data.hello}`
+    return ` # heading
+     hello i am working?  ${data.hello}`
 }
