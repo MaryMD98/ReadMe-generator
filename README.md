@@ -1,24 +1,54 @@
-# Homework Unit Eight:  Portafolio
 
-## Description of the homework:
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-In this homework, I created my portafolio and added links to the latest homeworks assigments and  project one assigment. I used the layout on the previous portafolio assigment in homework two, and inproved it using what I have learned so far in class.
+# Homework Unit Nine: Readme Generator
 
-The page displays my portafolio. It has a navBar that jumps to the different sections of the page. The navbar also has a link to my pdf resume. The page displays and area "About Me", "Projects", "Works" and "Contact Me". The About Me area, displays information about me. The Projects and Works displays cards with the screenshot of the assigments and  their title. The pictures inside the cards are hyperlinks to the link deploiment of the assigments. Above the cards there is a link to the repo of each assigment. The contact me information displays the linkedin, github and email information about me. 
+## [Description](#description)
 
-In this homework, I used, jQuery, bootstrap, googlefonts and javascript to create my Portafolio. 
+In this homework I created a readme generator to create a high-quality README for a new project. This application uses a command-line that accepts user input. 
 
-# Link to application:
-Link to the video capture of application [HERE](https://watch.screencastify.com/v/EwMaCsGJX6D2LahB6aA6)
-https://watch.screencastify.com/v/EwMaCsGJX6D2LahB6aA6
+The application asks a series of questions to the user to input. After all questions are responded the readme is generated. The readme has a table of contents with links to areas of the readme. The readme has the following sections, title, description, installation, usage, license, sontributing, tests, and questions. When the user choses a type of license, then a badge is generated at the top of the page, and a link to the coresponding license is provided on the license area.
 
-# Screenshot  of Portafolio:
-Below are screenshots of my Portafolio. 
+## Table of Content
 
-![image one of portafolio screenshot](./Screenshots/Screenshot1.png)
-![image two of portafolio screenshot](./Screenshots/Screenshot2.png)
+* [Description](#description)
+* [Installation](#installation)
+* [Test](#test)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Questions](#questions)
 
+## [Installation](#installation)
+To initialie, run the following command.
 
+    node index.js
 
+## [Test](#test)
+To run tests, run the following command
 
+    none, no test are provided at this moment.
+
+## [Usage](#usage)
+
+This application is good to use when generating a readme for any project. 
+
+## Screenshot of Readme generator:
+
+![image one of readme](./Screenshot/Screenshot1.png)
+![image two of readme](./Screenshot/Screenshot2.png)
+![image three of readme](./Screenshot/Screenshot3.png)
+
+## [License](#license)
+
+[MIT](https://opensource.org/licenses/MIT) License.
+
+## [Contributing](#contributing)
+
+There is no contibution at this time.
+
+## [Questions](#questions)
+
+If you have any questions about the repo, or would like to contact me directly, 
+here is my email: maibel.montes4@gmail.com. You can find more of my work at [Maribel Montes](https://github.com/MaryMD98).
 
