@@ -9,6 +9,8 @@ In this homework I created a readme generator to create a high-quality README fo
 
 The application asks a series of questions to the user to input. After all questions are responded the readme is generated. The readme has a table of contents with links to areas of the readme. The readme has the following sections, title, description, installation, usage, license, sontributing, tests, and questions. When the user choses a type of license, then a badge is generated at the top of the page, and a link to the coresponding license is provided on the license area.
 
+Here is a screencapture of how to deploy the [application](https://watch.screencastify.com/v/EwMaCsGJX6D2LahB6aA6).
+
 ## Table of Content
 
 * [Description](#description)
