@@ -78,6 +78,11 @@ ${renderLicenseBadge(data.projectLIC)}
 
 ${data.projectDES}
 
+### Link to application:
+Here is a screencapture video demostrating the functionality of the [application](). If this link does not work, you can try [this one]().
+
+To deploy the application, I am using Heroku. Here is the Link to the deployment of the [application]().
+
 ## Table of Content
 
 * [Description](#description)
@@ -101,6 +106,10 @@ To run tests, run the following command
 ## [Usage](#usage)
 
 ${data.repoMSG}
+
+### Screenshot of Employee Tracker Comand Lines:
+![image of ](./screenshots/Screenshot1.png)
+![image of ](./screenshots/Screenshot2.png)
 
 ${renderLicenseSection(data.projectLIC)}
 
